@@ -88,8 +88,7 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link{
 
 .center-image{
     position: absolute;
-    margin: auto;
-    width: 100%;
+    margin-left: 50px;
 }
 
 .center-image img{
@@ -97,8 +96,8 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link{
     display: block;
     position: relative;
     max-height: 300px;
-    margin-top: 100px;
     filter: grayscale(1) sepia(100%) hue-rotate(55deg)  saturate(7) brightness(1) contrast(2);
+    margin-top: 75px;
 }
 
 .nav.nav-tabs{
@@ -149,15 +148,63 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link{
     margin: auto;
 }
 
+#status{
+    max-width: 400px;
+    margin: auto;
+}
+
+.screen-bars > .row{
+    margin-bottom: 100px;
+}
+
 .footer{
     position: fixed;
     bottom: 0;
     margin: 10px;
+    font-size: 22px;
 }
 
 .footer .col-3, .footer .col-6{
     background: rgba(16, 255, 0, 0.15);
     flex: 0 0 48%;
     margin-right: 3px;
+    padding: 5px 10px;
+}
+
+/* utility percentage classes for progress bars */
+.w10{
+    width: 10%;
+}
+
+.w20{
+    width: 20%;
+}
+
+.w30{
+    width: 30%;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.w70{
+    width: 70%;
+}
+
+.w80{
+    width: 80%;
+}
+
+.w90{
+    width: 90%;
 }
 
