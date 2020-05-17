@@ -19,6 +19,8 @@ body::after{
     pointer-events: none;
 }
 
+/* CSS  for index.html starts here */
+
 .navbar{
     border-bottom: 2px solid;
     margin: 0px 10px;
@@ -130,9 +132,17 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link{
 }
 
 .damage img.flash{
-    width: 110%;
-    margin-left: 0px;
-    padding-top: 6.5px;
+    width: 25px;
+    margin-left: -7px;
+}
+
+.damage img.radiation{
+    width: 22px;
+    margin-left: -7px;
+}
+
+.damage .points{
+    margin-left: -6px;
 }
 
 .damage .col-1.transparent,.damage .col-2.transparent {
@@ -196,6 +206,41 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link{
     margin-bottom: 90px;
 }
 
+/* CSS  for index.html ends here */
+
+/* CSS  for inventory.html starts here */
+
+#status.tab-pane.full{
+    width: 100%;
+    margin-left: 130px;
+    max-width: 100%;
+}
+
+.item-list{
+    float: left;
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+.item-list li a{
+    display: block;
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color: #14fe17;
+}
+
+.item-list li a:hover{
+    text-decoration: none;
+    background: #14fe17;
+    color: #272b23;
+}
+
+/* CSS  for inventory.html ends here */
+
+/* footer below is common for all the pages, it starts here */
+
 .footer{
     position: fixed;
     bottom: 0;
@@ -209,6 +254,8 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link{
     margin-right: 3px;
     padding: 5px 10px;
 }
+
+/* footer ends here */
 
 /* utility percentage classes for progress bars */
 .w10{
